@@ -66,7 +66,7 @@ This project automates dataset analysis and visualization using Python, integrat
 Install required libraries:
 
 ```bash
-pip install -r requirements.txt
+pip install package_name
 ```
 
 Dependencies include:
@@ -79,37 +79,12 @@ Dependencies include:
 
 ---
 
-## Usage
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/automated-data-analysis.git
-   cd automated-data-analysis
-   ```
-
-2. **Prepare your environment**:
-   - Create a `.env` file to store the API token:
-     ```plaintext
-     AIPROXY_TOKEN=your_api_token_here
-     ```
-
-3. **Run the script**:
-   ```bash
-   python autolysis.py <dataset.csv>
-   ```
-
-4. **Access the Outputs**:
-   - Visualizations: `.png` files in the output directory.
-   - Markdown Report: `README.md` file summarizing the analysis.
-
----
-
 ## Example Datasets
 
 The script has been tested with various datasets, such as:
-- **Books Dataset**: Contains metadata, genres, and ratings from GoodReads.
-- **Happiness Index**: Global happiness data from the World Happiness Report.
-- **Media Ratings**: Faculty evaluations of books, movies, and TV shows.
+- **goodreads.csv**: Contains metadata, genres, and ratings from GoodReads.
+- **happiness.csv**: Global happiness data from the World Happiness Report.
+- **media.csv**: Faculty evaluations of books, movies, and TV shows.
 
 ---
 
