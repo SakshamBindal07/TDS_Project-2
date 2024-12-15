@@ -1,6 +1,7 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
+#   "ipykernel",
 #   "pandas",
 #   "matplotlib",
 #   "seaborn",
